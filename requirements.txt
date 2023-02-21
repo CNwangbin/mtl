@@ -1,0 +1,11 @@
+datasets
+h5py
+matplotlib
+numpy
+pandas
+requests
+setuptools
+sklearn
+tokenizers
+torch
+tqdm
