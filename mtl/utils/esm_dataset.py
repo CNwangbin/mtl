@@ -122,8 +122,7 @@ class EsmDataset(Dataset):
 
 if __name__ == '__main__':
     from torch.utils.data import DataLoader
-    # test CAFA3 dataset
-    test_df = pd.read_pickle('../../data/cafa3/mfo/mfo_train_data.pkl')
+    test_df = pd.read_pickle('/home/wangbin/mtl/data/pfam/train_data_embedding.pkl')
     mfo_dataset = EsmDataset(test_df)
     mfo_loader = DataLoader(mfo_dataset,
                             batch_size=8,
